@@ -13,6 +13,6 @@ $key = isset($key) ? $key : '<%= key %>';
         <?php echo $this->Form->text("comments.{$key}.description"); ?>
     </td>
     <td class="actions">
-        <a href="#" class="remove">Remove grade</a>
+        <a href="#" class="remove">Remove comment</a>
     </td>
 </tr>
